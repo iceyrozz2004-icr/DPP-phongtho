@@ -4,7 +4,7 @@ import sys
 if len(sys.argv) != 2:
     print("none")
 else:
-    text == sys.argv[1]
+    text = sys.argv[1]
     result = ""
     for char in text:
         if char == "z":
@@ -13,4 +13,3 @@ else:
         print(result)
     else:
         print("none")
-
